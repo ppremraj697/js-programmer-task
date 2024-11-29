@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 class AnimalApp {
   constructor() {
     this.app = express();
-    this.PORT = 3000;
+    this.PORT = process.env.PORT || 3000;
     this.bigCatsFilePath = path.join(__dirname, "data/bigCats.json");
     this.dogsFilePath = path.join(__dirname, "data/dogs.json");
     this.bigFishesFilePath = path.join(__dirname, "data/bigFishes.json");
