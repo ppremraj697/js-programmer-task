@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Humpback Whale",
+        "size": 15,
+        "location": [
+            "Atlantic Ocean"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Humpback_Whale_underwater_shot.jpg/800px-Humpback_Whale_underwater_shot.jpg"
+    },
+    {
+        "name": "Killer Whale",
+        "size": 112,
+        "location": [
+            "Atlantic Ocean"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Killerwhales_jumping.jpg/800px-Killerwhales_jumping.jpg"
+    },
+    {
+        "name": "Tiger Shark",
+        "size": 8,
+        "location": [
+            "Ocean"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Tiger_shark.jpg/800px-Tiger_shark.jpg"
+    },
+    {
+        "name": "Hammerhead Shark",
+        "size": 8,
+        "location": [
+            "Ocean"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Scalloped_Hammerhead_Shark_Sphyrna_Lewini_%28226845659%29.jpeg/800px-Scalloped_Hammerhead_Shark_Sphyrna_Lewini_%28226845659%29.jpeg"
+    }
+]

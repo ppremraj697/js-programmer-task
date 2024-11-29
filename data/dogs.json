@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Rottweiler",
+        "size": 2,
+        "location": [
+            "Germany"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Rottweiler_standing_facing_left.jpg/330px-Rottweiler_standing_facing_left.jpg"
+    },
+    {
+        "name": "German Shepherd",
+        "size": 2,
+        "location": [
+            "Germany"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg/330px-German_Shepherd_-_DSC_0346_%2810096362833%29.jpg"
+    },
+    {
+        "name": "Labrador",
+        "size": 2,
+        "location": [
+            "UK"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Labrador_on_Quantock_%282175262184%29.jpg/330px-Labrador_on_Quantock_%282175262184%29.jpg"
+    },
+    {
+        "name": "Alabai",
+        "size": 4,
+        "location": [
+            "Turkey"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/2.CAO_in_Hungary.jpg/330px-2.CAO_in_Hungary.jpg"
+    }
+]

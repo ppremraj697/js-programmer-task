@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-width: 265px;
+  background-color: black;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(134, 134, 134, 1) 0%,
+    rgba(0, 0, 0, 1) 85%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#868686",endColorstr="#000000",GradientType=1);
+}
+
+#top-container {
+  height: 35vh;
+  background-image: url(https://www.awf.org/sites/default/files/2022-03/InternationalDayofForests_AWF_Conservation.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-bottom: 5px solid white;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+}
+
+#heading {
+  color: #f5f5dc;
+}
+
+#portfolio {
+  padding: 50px 0;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+.animal-image {
+  height: 12rem;
+  overflow: hidden;
+}
+
+.animal-image img {
+  object-fit: cover;
+}
+
+.dog-name{
+  font-weight: bold;
+}
+
+.fish-name{
+  font-weight: bold;
+  font-style: italic;
+  color: blue;
+}
+
+#addAnimalForm {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+#addAnimalForm input {
+  width: 48%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+#addAnimalForm input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+#addAnimalForm button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#addAnimalForm button:hover {
+  background-color: #0056b3;
+}
+
+#sortOptions {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+#sortOptions label {
+  font-size: 14px;
+  color: #333;
+}
+
+#sortOptions select {
+  padding: 8px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+@media (max-width: 480px) {
+  #sortOptions {
+    padding: 12px;
+  }
+
+  #sortOptions select {
+    padding: 6px;
+  }
+}
