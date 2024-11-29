@@ -7,6 +7,7 @@ class AnimalApp {
   constructor() {
     this.app = express();
     this.PORT = process.env.PORT || 3000;
+    this.HOST = process.env.HOST || "localhost";
     this.bigCatsFilePath = path.join(__dirname, "data/bigCats.json");
     this.dogsFilePath = path.join(__dirname, "data/dogs.json");
     this.bigFishesFilePath = path.join(__dirname, "data/bigFishes.json");
@@ -109,8 +110,8 @@ class AnimalApp {
   }
 
   startServer() {
-    this.app.listen(this.PORT, () => {
-      console.log(`Server is running on http://localhost:${this.PORT}`);
+    this.app.listen(this.PORT, this.HOST, () => {
+      console.log(`Server is running on http://${this.HOST}:${this.PORT}`);
     });
   }
 }
